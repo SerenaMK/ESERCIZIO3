@@ -56,36 +56,9 @@ b {
     font-weight: bold;
 }
 
-mark {
-    color: white;
-    background-color: #007693;
-}
-
-ul{
-    padding-top: 10px;
-    margin-left: 60px;
-}
-
-li {
-    list-style-type: disc;
-    line-height: 35px;
-}
-
 .trasparente {
     border: transparent;
     margin: 0px;
-}
-
-dd {
-    margin-left: 40px;
-    padding-top: 3px;
-    padding-bottom: 5px;
-}
-
-kbd {
-    color: yellow;
-    font-weight:bold;
-    font-style: italic;
 }
 
 
@@ -115,21 +88,26 @@ header {
 /* MAIN */
 
 main {
-    margin: 10px;
+    margin: 20px;
 }
 
 strong {
     color: #007693;
 }
 
+mark {
+    color: white;
+    background-color: #007693;
+}
+
+
+/* ELEMENTI NEL MAIN */
+
 section {
     margin-top: 30px;
     margin-bottom: 40px;
     padding-bottom: 10px;
 }
-
-
-/* ELEMENTI NEL MAIN */
 
 figure {
     text-align: center;
@@ -154,6 +132,22 @@ blockquote {
     text-align: right;
 }
 
+ul{
+    padding-top: 10px;
+    margin-left: 60px;
+}
+
+li {
+    list-style-type: disc;
+    line-height: 35px;
+}
+
+dd {
+    margin-left: 40px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
 
 /* FOOTER */
 
@@ -168,4 +162,10 @@ footer {
 
 small {
     color: #989A9A;
+}
+
+kbd {
+    color: yellow;
+    font-weight:bold;
+    font-style: italic;
 }

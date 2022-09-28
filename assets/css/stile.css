@@ -12,6 +12,7 @@ body {
 
 h1 {
     color: white;
+    font-size: 30px;
     line-height: 43px;
 }
 
@@ -19,6 +20,7 @@ h2 {
     color: #007693;
     font-weight: 600;
     margin: 30px;
+    font-size: 28px;
 }
 
 h1,
@@ -26,7 +28,6 @@ h2 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    font-size: 27px;
 }
 
 h3 {
